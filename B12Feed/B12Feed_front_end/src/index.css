@@ -1,0 +1,23 @@
+@import "tailwindcss";  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  :root {
+  --color-brand: #058177;
+  --color-brand-hover: #046b62;
+  --color-brand-soft: #e9f6f3;
+  --color-brand-softer: #f4fbf9;
+  --color-border-soft: #eef2f1;
+}
+
+ @theme {
+  --color-brand: #058177;
+  --color-brand-hover: #046b63;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-neutral-900 antialiased;
+  }
+}
